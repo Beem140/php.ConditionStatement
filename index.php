@@ -21,7 +21,7 @@
     }
     echo "-------------------------------------";
     echo "<h2> Short hand if</h2>";
-    $score = 35; 
+    $score = 50; 
     if ($score >= 50) echo "ขอแสดงความยินดีคุณสอบผ่าน";
     echo "<br>";
     $result = $score>=50 ? "ได้เกรด P":"ได้เกรด F";
@@ -29,6 +29,23 @@
     echo "ผลการเรียนของคุณ".$result;
     echo "<br>";
     echo "-------------------------------------";
+    echo "<h2>คำสั่ง Switch Case</h2>";
+    echo "<br>";
+    $pet = 'Brid'; //ทดสอบเปลี่ยนเป็น Dog , Brid , etc
+    switch ($pet) {
+        case 'Cat':
+            echo "คุณชอบนอนเหมือนแมว<br>";
+            break;
+        case 'Dog':
+            echo "คุณเห่าเหมือนสุนัข<br>";
+            break;
+        case 'Brid':
+            echo "คุณพูดมากเหมือนนก<br>";
+            break;
+        default:
+            echo "คุณเป็นมนุษย์ Introvert<br>";
+            break;
+    }
     ?>  
 </body>
 </html>
