@@ -72,5 +72,11 @@
             ?>
             <a href="Triangle_area_form.php">กลับไปกรอกข้อมูลใหม่</a>
         </div>
+        <?php
+        function triangleaArea($h,$w){
+            $area = 0.5 * $h * $w;  //คำนวณพื้นที่ 1/2*ฐาน*สูง
+            return $a;
+        }
+        ?>
     </body>
 </html>
